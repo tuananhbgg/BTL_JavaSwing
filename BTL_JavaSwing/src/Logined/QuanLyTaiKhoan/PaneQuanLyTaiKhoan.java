@@ -27,17 +27,24 @@ public class PaneQuanLyTaiKhoan extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
+        LayerQLTK = new javax.swing.JLayeredPane();
+        homeQuanLyTaiKhoan1 = new Logined.QuanLyTaiKhoan.HomeQuanLyTaiKhoan();
 
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel1.setText("Tôi là phần Quản Lý Tài Khoản, bạn hãy lập trình cho tôi, Xem, Thêm, Sửa, Xóa");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 230, -1, -1));
+        LayerQLTK.setAlignmentX(0.0F);
+        LayerQLTK.setAlignmentY(0.0F);
+        LayerQLTK.setMaximumSize(new java.awt.Dimension(2147483647, 2147483647));
+        LayerQLTK.setMinimumSize(new java.awt.Dimension(760, 770));
+        LayerQLTK.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        LayerQLTK.add(homeQuanLyTaiKhoan1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        add(LayerQLTK, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 760, 770));
     }// </editor-fold>//GEN-END:initComponents
 
-
+  
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLayeredPane LayerQLTK;
+    private Logined.QuanLyTaiKhoan.HomeQuanLyTaiKhoan homeQuanLyTaiKhoan1;
     // End of variables declaration//GEN-END:variables
 }

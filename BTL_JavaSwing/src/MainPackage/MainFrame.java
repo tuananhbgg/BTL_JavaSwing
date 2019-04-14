@@ -8,7 +8,7 @@ import javax.swing.AbstractButton;
 import javax.swing.JLabel;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
-import sun.swing.table.DefaultTableCellHeaderRenderer;
+
 
 /*
  * To change this license header, choose License Headers in Project Properties.

@@ -129,7 +129,7 @@ public class ThemHang extends javax.swing.JPanel {
         btnNhapLai.setText("Nhập lại");
         btnNhapLai.setToolTipText("");
         btnNhapLai.setPreferredSize(new java.awt.Dimension(80, 28));
-        add(btnNhapLai, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 410, -1, -1));
+        add(btnNhapLai, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 400, -1, -1));
 
         btnBack.setBackground(new java.awt.Color(234, 107, 72));
         btnBack.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -148,7 +148,7 @@ public class ThemHang extends javax.swing.JPanel {
         btnThem.setText("Thêm");
         btnThem.setToolTipText("");
         btnThem.setPreferredSize(new java.awt.Dimension(80, 28));
-        add(btnThem, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 410, -1, -1));
+        add(btnThem, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 400, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
