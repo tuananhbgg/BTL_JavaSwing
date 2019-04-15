@@ -36,7 +36,7 @@ public class PaneQuanLyKhoHang extends javax.swing.JPanel {
         Layer.setAlignmentY(0.0F);
         Layer.setMinimumSize(new java.awt.Dimension(760, 770));
         Layer.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        Layer.add(homeQuanLyKhoHang2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        Layer.add(homeQuanLyKhoHang2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 750));
 
         add(Layer, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 760, 770));
     }// </editor-fold>//GEN-END:initComponents
